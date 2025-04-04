@@ -1,12 +1,15 @@
-HTML5 Doodle Jump
-=================
+# Doodle-Jump
+Doodle Jump clone in JavaScript, HTML and CSS
 
-This is a recreation of Doodle Jump that originally comes for Android and iOS devices. This game is created using awesome HTML5 API and Canvas. It does not have all of the features that the original game has (for now) like Monsters, Power ups etc.
+### MIT Licence
 
-I'll be releasing a second version of this game with more features from the original game along with sounds to make this game more fun. Stay tuned for more game releases by me :D
+Copyright (c) 2020 Ania Kubow
 
-**Note**: This game is just a "recreation" of the original game in HTML5 and the graphics are made in Photoshop. I respect the original creators [Igor Pusenjak](http://www.limasky.com/) and his brother for their great work. I am a big fan of this game and I really love it so I decided to recreate that in HTML5 and trying to incorporate the same fun level the original creators did. 
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-The name of the game and images are &copy; **copyrights** by the respective creators and [Lima Sky](http://www.limasky.com/). If you like this game and want to purchase it for your phone, then you can get it for you iPhone [here](http://itunes.apple.com/in/app/doodle-jump/id307727765?mt=8) or your Android phone [here](https://play.google.com/store/apps/details?id=com.realarcade.DOJ&hl=en).
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-**Update**: You want to learn the process I used to create this game? Check out [this post by me](http://codetheory.in/how-i-created-my-version-of-doodle-jump-in-html5/). :)
+*Translation: Ofcourse you can use this for you project! Just make sure to say where you got this from :)
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
